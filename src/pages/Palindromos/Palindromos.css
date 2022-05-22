@@ -1,0 +1,31 @@
+#palindromos {
+    border: 1px;
+    background-color: #000;
+    padding: 1.5em 2em;
+    max-width: 60%;
+    margin: 2em auto;
+}
+
+#palindromos h2 {
+    text-align: center;
+    font-size: 2.1em;
+    margin-top: 0;
+
+}
+
+.subtitle {
+    font-weight: bold;
+    color: #999;
+    margin-bottom: 1.5em;
+
+}
+
+#palindromos form {
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid #363636;
+}
+
+#palindromos p {
+    text-align: center;
+}
