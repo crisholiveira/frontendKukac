@@ -3,7 +3,7 @@ import "./CaixaRegistradora.css"
 import { useState, useEffect } from "react"
 
 const CaixaRegistradora = () => {
-  
+
   const [valorCompra, setValorCompra] = useState("")
   const [valorPago, setValorPago] = useState("")
   const [restante, setRestante] = useState([])
@@ -24,6 +24,9 @@ const CaixaRegistradora = () => {
       .then(response => response.json())
       .then(data => setRestante(data.restante))
       .catch(err => console.log(err))
+
+    setValorCompra("")
+    setValorPago("")
   }
 
 
@@ -38,7 +41,7 @@ const CaixaRegistradora = () => {
         <input type="number" placeholder="Digite o valor pago pelo cliente" onChange={(e) => setValorPago(e.target.value)} value={valorPago || ""} />
         <input type="submit" value="Exibir" />
       </form>
-      
+
       <div className="result"></div>
     </div>
   )
