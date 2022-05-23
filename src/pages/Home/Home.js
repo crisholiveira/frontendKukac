@@ -2,7 +2,12 @@ import "./Home.css"
 
 const Home = () => {
   return (
-    <div>Home</div>
+
+    <div id="about">
+      <h2>Sobre mim</h2>
+    </div>
+    
+
   )
 }
 

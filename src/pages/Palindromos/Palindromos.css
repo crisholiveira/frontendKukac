@@ -29,3 +29,15 @@
 #palindromos p {
     text-align: center;
 }
+
+.result  {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+
+.result p {
+    margin: 2em;
+
+}
