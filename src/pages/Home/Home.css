@@ -1,4 +1,13 @@
-#about {
+#about p {
     text-align: center;
+    max-width: 60%;
+    margin: auto;
+    line-height: 1.5rem;
 
+}
+
+#about h2 {
+    text-align: center;
+    padding: 2rem;
+    
 }

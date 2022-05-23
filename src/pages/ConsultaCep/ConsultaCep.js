@@ -1,4 +1,4 @@
-import "./ConsultaCep.css"
+
 
 const ConsultaCep = () => {
   return (
